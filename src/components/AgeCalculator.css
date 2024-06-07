@@ -48,7 +48,7 @@ form {
 
 .form_container {
   display: flex;
-  gap: 2rem;
+  gap: 1.5rem;
   overflow: visible;
 }
 
@@ -75,7 +75,7 @@ label {
 }
 
 input {
-  width: 100px;
+  width: 120px;
   padding: 0.5rem;
   border: 1px solid var(--Light-grey);
   border-radius: 0.5rem;
@@ -227,4 +227,17 @@ input[type="number"] {
   .submit_btn {
     padding: 0.5rem;
   }
+}
+
+.error-input {
+  border: 1px solid red;
+}
+
+.error-label {
+  color: red;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.75em;
 }
